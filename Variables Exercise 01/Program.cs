@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Variables_Exercise_01
 {
@@ -10,7 +11,13 @@ namespace Variables_Exercise_01
             // - Once finished save, commit, and then push to GitHub!
 
             // TODO: Declare 3 constansts
+            const int monthsOfTheYear = 12;
+            const int daysOfTheWeek = 7;
+            const int hoursOfTheDay = 24;
 
+            Console.WriteLine($"There are {monthsOfTheYear} months in a year");
+            Console.WriteLine($"There are {daysOfTheWeek} days in a week");
+            Console.WriteLine($"There are {hoursOfTheDay} hours in a day");
             #region Types
             // string
             // char
